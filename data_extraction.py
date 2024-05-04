@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import anthropic
 import traceback
+import datetime
 import requests
 import redis
 import json
@@ -77,7 +78,8 @@ class Nasdaq(Scraper):
 
     def prepare_data_for_registry(self):
         data = {'url': self.url, 'title': self.title, 'author': self.author, 'publisher': self.publisher,
-                             'publication_timestamp': self.published_timestamp, 'stocks': self.companies}
+                'publication_timestamp': self.published_timestamp, 'stocks': self.companies,
+                'datetime_of_extraction': str(datetime.datetime.now())}
         return data
 
 

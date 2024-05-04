@@ -10,4 +10,5 @@ Sample Output:
  'author': 'Will Healy', 
  'publisher': 'The Motley Fool', 
  'publication_timestamp': 'April 12, 2024 — 07:15 am EDT', 
- 'stocks': ['Nvidia', 'Tesla', 'DigitalOcean', 'C3.ai', 'Super Micro Computer', 'Netflix', 'GE Healthcare Technologies', 'StoneCo', 'Samsung', 'Siemens', 'Apple']}
+ 'stocks': ['Nvidia', 'Tesla', 'DigitalOcean', 'C3.ai', 'Super Micro Computer', 'Netflix', 'GE Healthcare Technologies', 'StoneCo', 'Samsung', 'Siemens', 'Apple'],
+ 'datetime_of_extraction': '2024-05-04 17:31:16.237052'}
